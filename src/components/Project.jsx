@@ -6,11 +6,11 @@ const Project = () => {
   return (
     <div id="Projects">
       <section className='my-28 px-5' id='projects'>
-        <header className='text-2xl font-bold pt-10'>
-          <h2>Projects</h2>
-        </header>
-        <div className='my-7 space-y-24'>
-          {projects.map((project, index) => (
+          <header className='text-5xl font-bold pt-10 border-b-1 border-gray-300 pb-3'>
+              <h1>Projects</h1>
+          </header>
+          <div className='my-7 space-y-24'>
+              {projects.map((project, index) => (
             <article className='flex flex-wrap md:justify-between md:items-center' key={index}>
               <picture className={index % 2 === 0 ? 'w-full md:w-6/12 shadow-lg ' : 'w-full md:w-6/12 shadow-lg md:order-1'}>
                 <img src={project.image} alt={project.title} />

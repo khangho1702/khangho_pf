@@ -5,12 +5,12 @@ const Skill = () => {
   return (
     <div id="Skill">
     <section className='my-28  px-5'>
-      <header className='text-2xl font-bold pt-10 mb-5'>
-        <h2>Skills & Tools</h2>
+      <header className='text-5xl font-bold pt-10 border-b-1 border-gray-300 pb-3 mb-8'>
+        <h1>Skills & Tools</h1>
       </header>
       {Proficient?.length > 0 &&
-        <div className='pl-3'>
-          <h2 className='text-xl'> Proficient </h2>
+          <div className='pl-3'>
+            <h2 className='text-xl'> Proficient </h2>
           <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6 content-center'>
             {Proficient.map((x, index) =>
               <div className='flex flex-col items-center' tabIndex='0' role='img' aria-label={x.skill} key={index}>

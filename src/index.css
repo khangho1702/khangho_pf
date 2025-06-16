@@ -22,7 +22,7 @@ html {
 
 h1 {
   background-color: #4158d0;
-  background-image: linear-gradient(43deg, #a162e8 0%, #f7ce68 46%, #85ffbd 100%);
+  background-image: linear-gradient(43deg, #73cde1 0%, #f7ce68 46%, #da9343 100%);
 
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -32,7 +32,7 @@ h1 {
 h3 {
   font-size: 1.4rem !important;
   background-color: #8e9ffa;
-  background-image: linear-gradient(45deg, #8e9ffa 0%, #f874ef 10%, #ffcc70 29%, #ffffff 100%);
+  background-image: linear-gradient(43deg, #73cde1 0%, #f7ce68 46%, #da9343 100%, #ffffff 100%);
 
   background-clip: border-box;
   -webkit-background-clip: text;

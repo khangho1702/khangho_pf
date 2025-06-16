@@ -5,8 +5,8 @@ function Experience() {
     return (
         <div id="Experience">
             <section className='my-28 px-5' id='projects'>
-                <header className='text-2xl font-bold pt-10'>
-                    <h2>Education</h2>
+                <header className='text-5xl font-bold pt-10 border-b-1 border-gray-300 pb-3'>
+                    <h1>Education</h1>
                 </header>
                 <div className=''>
                     <div className="main-cont">

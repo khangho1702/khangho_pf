@@ -1,44 +1,37 @@
 const Proficient = [
     {
-        skill: "Javascript",
-        logo: './images/icons/javascript-original.svg'
+        skill: "Python",
+        logo: "./images/icons/python-icon.svg"
     },
     {
-        skill: "React Js",
-        logo: './images/icons/react-original.svg'
+        skill: "Java",
+        logo: "./images/icons/java-icon.svg"
     },
     {
-        skill: "Node JS ",
-        logo: "./images/icons/nodejs-original.svg"
-    },
-    {
-        skill: "MongoDB",
-        logo: "./images/icons/mongodb-original.svg"
-    },
-    {
-        skill: "Git",
-        logo: "./images/icons/git-scm-icon.svg"
-    },
-    
-    {
-        skill: "SocketIO",
-        logo: "./images/icons/socket-io.svg"
-    },
-    {
-        skill: "C Language",
-        logo: "./images/icons/icons8-c-programming-48.png"
-    },
-    {
-        skill: "C++ Language",
-        logo: "./images/icons/icons8-c++.svg"
+        skill: "C#",
+        logo: "./images/icons/c-sharp.svg"
     },
     {
         skill: "MySql",
         logo: "./images/icons/mysql-ar21.svg"
     },
     {
-        skill: "Redis",
-        logo: "./images/icons/redis-icon.svg"
+        skill: "SQLite",
+        logo: "./images/icons/sqlite-icon.svg"
+    },
+]
+const Familiar = [
+    {
+        skill: "C++ Language",
+        logo: "./images/icons/icons8-c++.svg"
+    },
+    {
+        skill: "Javascript",
+        logo: './images/icons/javascript-original.svg'
+    },
+    {
+        skill: "React Js",
+        logo: './images/icons/react-original.svg'
     },
     {
         skill: "HTML 5",
@@ -48,19 +41,13 @@ const Proficient = [
         skill: "CSS 3",
         logo: "./images/icons/css3-original.svg"
     },
-]
-const Familiar = [
     {
-        skill: "Java",
-        logo: "./images/icons/java-icon.svg"
+        skill: "PostgreSQL",
+        logo: "./images/icons/postgre-sql.svg"
     },
     {
-        skill: "Python",
-        logo: "./images/icons/python-icon.svg"
-    },
-    {
-        skill: "WebRTC",
-        logo: "./images/icons/webrtc.svg"
+        skill: "Git",
+        logo: "./images/icons/git-scm-icon.svg"
     },
     {
         skill: "Linux",
@@ -70,7 +57,14 @@ const Familiar = [
         skill: "AWS",
         logo: "./images/icons/amazon_aws-icon.svg"
     },
-    
+    {
+        skill: "Kubernetes",
+        logo: "./images/icons/kubernetes.svg"
+    },
+    {
+        skill: "Tomcat",
+        logo: "./images/icons/tomcat.svg"
+    },
 ]
 export { Proficient, Familiar }
 

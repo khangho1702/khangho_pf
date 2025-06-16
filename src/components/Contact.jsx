@@ -1,10 +1,10 @@
 import React from 'react';
-import { ADDRESS, EMAIL_ID, FIRST_NAME, GITHUB_USERNAME, LAST_NAME, LINKEDIN_USERNAME, RESUME_PATH, TWITTER_ID } from '../root.link'
+import { ADDRESS, EMAIL_ID, FIRST_NAME, GITHUB_USERNAME, LAST_NAME, LINKEDIN_USERNAME, RESUME_PATH } from '../root.link'
 const Contact = () => {
   return (
     <section className='my-28' id='contact'>
-      <header className='px-5 text-2xl font-bold pt-10'>
-        <h2>Contact Me</h2>
+      <header className='text-5xl font-bold pt-10 border-b-1 border-gray-300 pb-3'>
+        <h1>Contact Me</h1>
       </header>
       <div className='md:mx-6 flex flex-col flex-wrap md:flex-row justify-between'>
         <div className='md:w-6/12 md:px-0 p-5 my-5'>
