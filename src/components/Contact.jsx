@@ -15,9 +15,6 @@ const Contact = () => {
               {EMAIL_ID}
             </a>
           </div>
-          <a className='border-b-2 mt-3 inline-block border-gray-500' href={RESUME_PATH} target='_blank' rel='noreferrer'>
-            Resume
-          </a>
           <div className='flex flex-row flex-wrap mt-7'>
             <div className='mr-4'>
               <a href={`https://www.linkedin.com/in/${LINKEDIN_USERNAME}`} target='_blank' rel='noreferrer'>

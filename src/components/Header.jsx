@@ -1,5 +1,5 @@
 import React from 'react';
-import { RESUME_PATH } from '../root.link';
+import {GITHUB_USERNAME, RESUME_PATH} from '../root.link';
 
 const Header = () => {
   return (
@@ -27,8 +27,8 @@ const Header = () => {
         </li>
         
         <li>
-          <a href={RESUME_PATH} target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
-            Resume
+          <a href={`https://github.com/${GITHUB_USERNAME}`} target='_blank' rel='noreferrer' className='py-1 px-5 hover:bg-gray focus:bg-gray rounded-lg'>
+            Github
           </a>
         </li>
       </ul>
